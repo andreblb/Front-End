@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    
+</body>
+</html>
+<link rel="stylesheet" href="">
+<script>
+    const nome = window.prompt("oi? qual o seu nome?");
+    
+    const idade = window.prompt(`ok ${nome}, qual a sua idade?`);
+    
+    if(nome === '' || idade === ''){
+        alert('nome ou idade ivalidos');
+        location.href='';
+        
+    }
+
+    
+    document.write(`muito bem. seu nome é: ${nome} e sua idade é: ${idade}`);
+    if(idade >= 18 || idade==''){
+        document.writeln('você de maior');
+    }else{
+        alert('saia da pagina');
+        }
+    
+</script>

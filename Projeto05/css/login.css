@@ -1,0 +1,43 @@
+html, body{
+    height: 100%;
+}
+
+.conteudo{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-image: linear-gradient(to right, #CC2EFA, #5858FA); 
+    color: white;
+    padding-left: 120px;
+}
+
+.conteudo>img{
+    width: 250px;
+    margin-top: 120px;
+}
+.conteudo>h1{
+    font-size: 40pt;
+}
+
+.login{
+    padding-top: 120px;
+    text-align: center;
+}
+.login>form>legend{
+     font-size: 15pt;
+     margin-bottom: 10px;
+}
+.login>form>input, button{
+    height: 40px;
+    margin-top: 10px;
+    width: 17%;
+    font-size: 12pt;
+   
+}
+.login>form>button{
+    background-color: #CC2EFA;
+    color: white;
+}
+.login>form>button:hover{
+    background-color: #5858FA;
+}

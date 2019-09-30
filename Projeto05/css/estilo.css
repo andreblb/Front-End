@@ -1,0 +1,158 @@
+body, html{
+    height: 100%;
+}
+
+.sidebar{
+    height: 100%;
+    background-color: #555;
+    width: 15%;
+    float: left;
+    box-shadow: 6px 0px 12px 0px rgb(0,0,0,0.7);
+    z-index: auto;
+}
+.navbar{
+    float: right;
+    width: 85%;
+    background-color: #ccc;
+    height: 100px;
+    
+}
+
+.navbar>img{
+    border-radius: 70%;
+    width: 80px;
+    margin-top: 10px;
+    float: right
+}
+.navbar>span{
+    float: right;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 40px;
+    font-size: 16pt;
+    
+}
+
+.content{
+    float: left;
+    width: 80%;
+    padding: 30px
+}
+.content>button{
+    background-color: #7a5103;
+    color: #fff;
+    height: 30px;
+}
+.content>button:hover{
+    background-color: #4c3366;
+
+}
+.cotent>hr{
+    background-color: #d5d2d7;
+    border: 0;
+    height: 1px;
+}
+.content>table{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;      
+}
+.content>table>tbody>tr{
+    height: 30px;
+    
+        
+}
+.content>table>tbody>tr:hover{
+    background-color: grey;
+}
+.content>table>*>tr>*{
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+.btn{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-width: thin;
+    border-color: #ccc;
+}
+.btn-red{
+    background-color: #c9302c;
+}
+.btn-orange{
+    background-color: #f17e52;
+}
+.btn-white{
+    background-color: #fff;
+    color: #000;
+}
+.btn-red:hover{
+    background-color: #8A0808;
+}
+.btn-orange:hover{
+    background-color: #8A2908;
+}
+.btn-white:hover{
+    background-color: #ccc;
+}
+.sidebar>.logo{
+    width: 70%;
+    margin-top: 20;
+    margin-left: 10;
+    float: left;
+}
+.sidebar>button{
+    margin-top: 20;
+    margin-right: 10;
+    float: right;
+    background-color: #555;
+    border: 0;
+}
+.sidebar>button:hover{
+    background-color: #333;
+
+}
+.user{
+    text-align: center;
+    margin-top: 75px;
+}
+.username{
+    color: #fff;
+
+}
+.useremail{
+    color: #aaa;
+}
+.user>img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 20px;
+    border: 8px solid #fff;
+}
+.sidebar>.menu{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.sidebar>.menu>span, ul{
+    margin-left: 20px;
+}
+.sidebar>.menu>span>ul>li>a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sidebar>.menu>ul>li{
+    display: block;
+}
+.sidebar>.menu>span>ul>li>a:hover{
+    color: #ddd;

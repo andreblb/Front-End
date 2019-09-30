@@ -1,0 +1,90 @@
+body, html{
+    height: 100%;
+}
+
+.sidebar{
+    height: 100%;
+    background-color: #555;
+    width: 15%;
+    float: left;
+}
+.navbar{
+    float: left;
+    width: 85%;
+    background-color: #ccc;
+    height: 100px;
+    
+}
+
+.navbar>img{
+    border-radius: 70%;
+    width: 80px;
+    margin-top: 10px;
+    float: right
+}
+.navbar>span{
+    float: right;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 40px;
+    font-size: 16pt;
+    
+}
+
+.content{
+    float: left;
+    width: 80%;
+    padding: 30px
+}
+.content>button{
+    background-color: #7a5103;
+    color: #fff;
+    height: 30px;
+}
+.content>button:hover{
+    background-color: #4c3366;
+
+}
+.cotent>hr{
+    background-color: #d5d2d7;
+    border: 0;
+    height: 1px;
+}
+.content>table{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;      
+}
+.content>table>tbody>tr{
+    height: 30px;
+    
+        
+}
+.content>table>tbody>tr:hover{
+    background-color: grey;
+}
+.content>table>*>tr>*{
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+.btn{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-width: thin;
+    border-color: #ccc;
+}
+.btn-red{
+    background-color: #c9302c;
+}
+.btn-orange{
+    background-color: #f17e52;
+}
+.btn-white{
+    background-color: #fff;
+    color: #000;
+}

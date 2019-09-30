@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body class="container">
+  
+   <div class="row mt-5">
+      <article class="col-md-3 col-xs-12">
+         <div class="alert alert-danger">
+             <p class="h2">199 contatos</p>
+         </div>
+          
+      </article>
+      <article class="col-md-3 col-xs-12">
+         <div class="alert alert-success">
+             <p class="h2">+5 hoje</p>
+         </div>
+          
+      </article>
+      <article class="col-md-3 col-xs-12">
+         <div class="alert alert-info">
+             <p class="h2">Duplicados</p>
+         </div>
+          
+      </article>
+      <article class="col-md-3 col-xs-12">
+         <div class="alert alert-warning">
+             <p class="h2">1 espaço livres</p>
+         </div>
+          
+      </article>
+       
+   </div>
+   <div class="row mt-3">
+      <section class="col-12 text-right">
+         <button class="btn btn-outline-primary" data-toggle="modal" data-target="#modalCadastro">novo contato</button>
+          
+      </section>
+       
+   </div>
+   <div class="row mt-5">
+      <section class="col-12">
+        <div class="table-responsive">
+         <table class="table table-horver table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nome</th>                 
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Criado em</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andre</td>
+                    <td>andre@gamil.com</td>
+                    <td>8599786999</td>
+                    <td>02/09/2019 20:12:48</td>
+                    <td>
+                        <a href="#" class="btn btn-warning">Editar</a>
+                        <a href="#" class="btn btn-danger">excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Andre</td>
+                    <td>andre@gamil.com</td>
+                    <td>859999999</td>
+                    <td>02/09/2019 20:12:48</td>
+                    <td>
+                        <a href="#" class="btn btn-warning">Editar</a>
+                        <a href="#" class="btn btn-danger">excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Andre</td>
+                    <td>andre@gamil.com</td>
+                    <td>8599784599</td>
+                    <td>02/09/2019 20:12:48</td>
+                    <td>
+                        <a href="#" class="btn btn-warning">Editar</a>
+                        <a href="#" class="btn btn-danger">excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Andre</td>
+                    <td>andre@gamil.com</td>
+                    <td>8599845199</td>
+                    <td>02/09/2019 20:12:48</td>
+                    <td>
+                        <a href="#" class="btn btn-warning">Editar</a>
+                        <a href="#" class="btn btn-danger">excluir</a>
+                    </td>
+                </tr>
+            </tbody>
+             
+         </table>
+          </div>
+      </section>
+       
+   </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Novo Contato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form id="formCadastro">
+          <div class="modal-body">
+            
+                <input type="text" class="form-control form-control-lg mt-2 input-lg" placeholder="Nome" id="nome">
+                <input type="text" class="form-control form-control-lg mt-2 input-lg" placeholder="Email" id="email">
+                <input type="text" class="form-control form-control-lg mt-2 input-lg" placeholder="Telefone" id="telefone">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button class="btn btn-primary">Confirmar</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/eventos.js"></script>
+</html>
+

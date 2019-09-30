@@ -1,0 +1,117 @@
+
+        .font1{
+            padding-left: 60px;
+            font-size: 80pt;
+            color: #fff;
+        }
+        .font2{
+            padding-left: 60px;
+            font-size: 30pt;
+            color: #fff;
+        }
+        
+        body{
+            font-family: roboto;
+        }
+        nav{
+            background-color: #151515;
+            height:120px;
+            padding: 40px 40px  0px 40px;
+            
+        }
+        
+        .nav-marca>a{
+            color: #fff;
+            font-size: 20pt;
+            text-align: right;
+            text-decoration: none;
+            float: left 40pt;
+        }
+        ul{
+            text-align: right;
+            color: #fff;
+        }
+        
+        li{
+            display: inline-block;
+        }
+        
+        .nav-marca{
+            width: 30%;
+            float: left;
+        
+        }
+        
+        .nav-menu>ul>li>a{
+            color: #fff;
+            text-decoration: none;
+            
+        }
+        .nav-menu>ul>li{
+            padding: 20px;
+            
+        }
+        
+        .nav-menu>ul>li:hover{
+            background-color: #555;
+            
+        }
+        .header{
+            background-image: url(../img/topo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 351px;
+            
+        }
+        
+        .articles{
+            margin-top: 40px;
+            width: 80%;
+            margin-left: 10%;
+            
+        }
+        
+        .articles>article{ 
+            width: 29%;
+            float: left;
+            text-align: center;
+            border-style: groove;
+            border-width: thin;
+            border-color: #bbb;
+            padding: 15px;
+            margin-left: 1%;
+            box-shadow: 0px 0px 10px 0px #000;
+            
+        }
+        
+        .articles>article:hover{
+            background-color: #eee;
+            
+        }
+        
+        footer{
+            margin-top: 400px;
+            width: 30%;
+            margin-left: 25%;
+            border-style: double;
+            border border-width: thin;
+            background-color: #bbb;
+            padding: 20px;
+                
+        }
+       
+        
+        footer>form{
+            padding: 30px;
+        }
+        footer>form>input, textarea{
+            width: 95%;
+            min-height: 40px;
+        }
+        footer>form>button{
+            background-color: #2199E8;
+            color: #fff;
+        }
+        footer>form>button:hover{
+            background-color: #176ba2;
+        }
